@@ -1,0 +1,10 @@
+num1 = int(input('enter no.1:'))
+num2 = int(input('enter no.2:'))
+opr = input('enter operator(+,-,/,*):')
+
+print('Ans: ',end='\n')
+if opr=='+':print(num1+num2)
+elif opr=='-':print(num1 - num2)
+elif opr=='*':print(num1 * num2)
+elif opr=='/':print(num1 / num2)
+else: print('Invalid Operator.')  
