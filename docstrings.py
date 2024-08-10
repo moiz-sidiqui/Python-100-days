@@ -3,7 +3,8 @@
 # others (and yourself) understand the code's purpose and usage. Docstrings are 
 # written as the first statement inside a function, method, class, or module, and are 
 # enclosed in triple quotes (""" """ or ''' '''). They can span multiple lines and 
-# are accessible via the __doc__ attribute.
+# are accessible via the __doc__ attribute
+
 
 
 def add(a, b):
@@ -29,3 +30,9 @@ print(add(4,6))
 
 # Note: the docstring must start right after the function defination otherwise the 
 #       output of print(add.__doc__) would be None.
+
+
+
+# for modules:
+# a string (maybe a multiline) placed before any module instructions (including imports) is called
+# the doc-string, and should briefly explain the purpose and contents of the module;
