@@ -6,12 +6,12 @@
 
 # Example
 
-if condition1:
-    # code block
-elif condition2:
-    # another code block
-else:
-    # fallback code block
+# if condition1:
+#     # code block
+# elif condition2:
+#     # another code block
+# else:
+#     # fallback code block
 
 
 # conditional operators are used in conditions which are:
